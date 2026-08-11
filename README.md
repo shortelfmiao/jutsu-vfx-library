@@ -32,3 +32,5 @@ npm install
 npm run build
 
 The deployable static output is the `dist/` folder.
+
+deploy trigger
