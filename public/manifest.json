@@ -1,0 +1,20 @@
+{
+  "name": "Jutsu VFX Library",
+  "version": "1.7.1",
+  "manifest_version": 1,
+  "description": "Shared multiplayer Jutsu VFX and synchronized room audio.",
+  "action": {
+    "title": "Jutsu VFX Library",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "height": 650,
+    "width": 410
+  },
+  "background_url": "/background.html",
+  "permissions": [
+    {
+      "name": "autoplay",
+      "reason": "Play synchronized jutsu sound effects for all players when a technique is cast."
+    }
+  ]
+}
