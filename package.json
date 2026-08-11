@@ -1,0 +1,15 @@
+{
+  "name": "jutsu-vfx-library-asset",
+  "private": true,
+  "version": "1.7.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@owlbear-rodeo/sdk": "latest",
+    "vite": "latest"
+  }
+}
