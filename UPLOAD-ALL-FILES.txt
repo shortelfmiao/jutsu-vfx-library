@@ -1,0 +1,20 @@
+IMPORTANT FOR GITHUB/VERCEL
+
+Upload EVERY file and folder from this directory to the ROOT of your GitHub repository.
+
+Your repository root MUST contain:
+
+index.html
+background.html
+package.json
+vite.config.js
+vercel.json
+public/
+  manifest.json
+  icon.svg
+src/
+  main.js
+  background.js
+  style.css
+
+Do NOT upload only the files visible in the root. The public and src folders are required.

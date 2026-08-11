@@ -1,2 +1,12 @@
 import { defineConfig } from "vite";
-export default defineConfig({server:{cors:true}});
+import { resolve } from "node:path";
+
+export default defineConfig({
+  server: {
+    cors: true
+  },
+  input: {
+    main: resolve(import.meta.dirname, "index.html"),
+    background: resolve(import.meta.dirname, "background.html")
+  }
+});
